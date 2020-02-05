@@ -52,8 +52,6 @@ func DoFizzBuzz(w http.ResponseWriter, r *http.Request) {
 		response[i-1] = r
 	}
 
-	fmt.Println(response)
-
 	resp, err := json.Marshal(response)
 
 	if err != nil {
