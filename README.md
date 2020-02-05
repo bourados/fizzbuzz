@@ -1,6 +1,6 @@
 # fizzbuzz
 
-This is a Rest API for an enhanced version of FizzBuzz algorithm.
+This is a Rest API for an enhanced version of FizzBuzz algorithm written in Go Lang.
 
 Everything is customizable (
 - the limit, 
