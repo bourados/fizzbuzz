@@ -8,7 +8,7 @@ Everything is customizable (
 - and the words).
 
 ## Routes
-POST /fizzbuzz
+#### POST /fizzbuzz
 
 body : 
 ```json
@@ -20,3 +20,8 @@ body :
 	"str2" : "buzzz"
 }
 ```
+
+returns an array of numbers with from 1 to limit, where: all multiples of int1 are replaced by str1, all multiples of int2 are replaced by str2, all multiples of int1 and int2 are replaced by str1str2. 
+
+#### GET /stat
+returns the most used request and the number of hits
